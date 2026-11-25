@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <defs>
+    <linearGradient id="sapphire" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7FA5FF"/>
+      <stop offset="50%" stop-color="#5B8CFF"/>
+      <stop offset="100%" stop-color="#4B73D1"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF8FB4"/>
+      <stop offset="50%" stop-color="#FF6F9F"/>
+      <stop offset="100%" stop-color="#D15B82"/>
+    </linearGradient>
+    <linearGradient id="jade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#61DDB0"/>
+      <stop offset="50%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#2BAD7D"/>
+    </linearGradient>
+    <linearGradient id="prism" gradientUnits="userSpaceOnUse" x1="68" y1="40" x2="77" y2="47">
+      <stop offset="0%" stop-color="#FF8FD8"/>
+      <stop offset="50%" stop-color="#8FF3FF"/>
+      <stop offset="100%" stop-color="#FFE58F"/>
+    </linearGradient>
+    <path id="block" d="M4 0H13Q17 0 17 4V13Q17 17 13 17H4Q0 17 0 13V4Q0 0 4 0Z"/>
+    <path id="shine" d="M2 0H9Q11 0 11 2V3Q11 5 9 5H2Q0 5 0 3V2Q0 0 2 0Z"/>
+  </defs>
+  <rect width="108" height="108" fill="#0E1020"/>
+  <g id="motif">
+    <g stroke-width="0.8" stroke-opacity="0.549">
+      <use href="#block" x="27" y="56" fill="url(#sapphire)" stroke="#A9FFCB"/>
+      <use href="#block" x="45.5" y="45.5" fill="url(#rose)" stroke="#FFB0CA"/>
+      <use href="#block" x="64" y="35" fill="url(#jade)" stroke="#8FE7C7"/>
+    </g>
+    <g fill="#FFFFFF" fill-opacity="0.220">
+      <use href="#shine" x="30" y="58.5"/>
+      <use href="#shine" x="48.5" y="48"/>
+      <use href="#shine" x="67" y="37.5"/>
+    </g>
+    <path d="M72.5 39L77 43.5 72.5 48 68 43.5Z" fill="url(#prism)" stroke="#FFFFFF" stroke-width="0.8"/>
+  </g>
+</svg>
